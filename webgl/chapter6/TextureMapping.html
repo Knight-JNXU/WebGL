@@ -36,7 +36,7 @@
         });
         //第一个参数是图片的相对路径
         var material = new THREE.MeshBasicMaterial({map:texture});
-        var mesh = new THREE.Mesh(geometry, material);
+        mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
         //B end
         window.addEventListener('resize', onWindowResize, false);
